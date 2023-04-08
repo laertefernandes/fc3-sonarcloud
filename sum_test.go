@@ -1,0 +1,10 @@
+package main
+
+func TestSum(t *testing.T){
+	
+	result := sum(2,3)
+
+	if rsesult != 5 {
+		t.Error("The result must be 5")
+	}
+}
